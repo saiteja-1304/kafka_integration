@@ -1,0 +1,260 @@
+{
+
+  "serviceContextId" : "{{serviceContextId}}",
+  "data" : {
+    "Response" : {
+      "additionalAttributes" : [ {
+        "id" : "{{id}}",
+        "value" : "{{value}}"
+      } ],
+      "clientId" : "{{clientId}}",
+      "clientReferenceId" : "{{clientReferenceId}}",
+      "decisionResults" : {
+        "productDecision" : [ {
+          "decisionCategory" : "{{decisionCtegory}}",
+          "decisionName" : "{{decisionName}}",
+          "policyRuleSet" : [ {
+            "policyRule" : "{{PolicyRule}}",
+            "reasonCode" : "{{reasonCode}}"
+          } ]
+        } ],
+        "productDecisionCount" : "[productDecisionCount]",
+        "randomNumbers" : "[randomNumbers]"
+      },
+      "expCreditProfile" : [ {
+        "addressInformation" : [ {
+          "city" : "{{city}}",
+          "dwellingType" : "{{dwellingType}}",
+          "firstReportedDate" : "{{firstReportedDate}}",
+          "lastReportingSubscriberCode" : "{{lastReportingSubscriberCode}}",
+          "lastUpdatedDate" : "{{lastUpdatedDate}}",
+          "source" : "{{source}}",
+          "state" : "{{state}}",
+          "streetName" : "{{streetName}}",
+          "streetPrefix" : "{{streetPrefix}}",
+          "streetSuffix" : "{{streetSuffix}}",
+          "timesReported" : "{{timesReported}}",
+          "zipCode" : "{{zipCode}}"
+        }, {
+          "city" : "{{city}}",
+          "dwellingType" : "{{dwellingType}}",
+          "firstReportedDate" : "{{firstReportedDate}}",
+          "lastUpdatedDate" : "{{lastUpdatedDate}}",
+          "source" : "{{source}}",
+          "state" : "{{state}}",
+          "streetName" : "{{streetName}}",
+          "streetPrefix" : "{{streetPrefix}}",
+          "streetSuffix" : "{{streetSuffix}}",
+          "timesReported" : "{{timesReported}}",
+          "zipCode" : "{{zipCode}}"
+        }, {
+          "city" : "{{city}}",
+          "dwellingType" : "{{dwellingType}}",
+          "firstReportedDate" : "{{firstReportedDate}}",
+          "lastUpdatedDate" : "{{lastUpdatedDate}}",
+          "source" : "{{source}}",
+          "state" : "{{state}}",
+          "streetName" : "{{streetName}}",
+          "streetPrefix" : "{{streetPrefix}}",
+          "streetSuffix" : "{{streetSuffix}}",
+          "timesReported" : "{{timesReported}}",
+          "zipCode" : "{{zipCode}}"
+        } ],
+        "consumerIdentity" : {
+          "name" : [ {
+            "firstName" : "{{firstName}}",
+            "middleName" : "{{middleName}}",
+            "surname" : "{{surname}}"
+          }, {
+            "firstName" : "{{firstName}}",
+            "surname" : "{{surname}}",
+            "type" : "{type}"
+          }, {
+            "firstName" : "{{firstName}}",
+            "middleName" : "{{middleName}}",
+            "surname" : "{{surname}}",
+            "type" : "{{type}}"
+          } ]
+        },
+        "fcraAttributes" : {
+          "addressMismatch" : "{{addressMismatch}}",
+          "xfc01" : "{{xfc01}}",
+          "xfc02" : "{{xfc02}}",
+          "xfc03" : "{{xfc03}}",
+          "xfc04" : "{{xfc04}}",
+          "xfc05" : "{{xfc05}}",
+          "xfc06" : "{{xfc06}}",
+          "xfc07" : "{{xfc07}}"
+        },
+        "headerRecord" : {
+          "mKeywordText" : "{{mKeywordText}}",
+          "reportDate" : "{{reportDate}}",
+          "reportTime" : "{{reportTime}}"
+        },
+        "informationalMessage" : [ {
+          "messageNumber" : "{{messageNumber}}",
+          "messageText" : "{{messageText}}"
+        }, {
+          "messageNumber" : "{{messageNumber}}",
+          "messageText" : "{{messageText}}"
+        } ],
+        "ops_transaction_id" : "{{ops_transaction_id}}",
+        "premierAttributes" : [ {
+          "attributeSet" : [ {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          }, {
+            "id" : "{{id}}",
+            "value" : "{{value}}"
+          } ],
+          "version" : "{{version}}"
+        } ],
+        "riskModel" : [ {
+          "evaluation" : "{{evaluation}}",
+          "modelIndicator" : "{{modelIndicator}}",
+          "score" : "{{score}}",
+          "scoreFactors" : [ {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          } ]
+        }, {
+          "evaluation" : "{{evaluation}}",
+          "modelIndicator" : "{{modelIndicator}}",
+          "score" : "{{score}}"
+        }, {
+          "evaluation" : "{{evaluation}}",
+          "modelIndicator" : "{{modelIndicator}}",
+          "score" : "{{score}}"
+        }, {
+          "evaluation" : "{{evaluation}}",
+          "modelIndicator" : "{{modelIndicator}}",
+          "score" : "{{score}}",
+          "scoreFactors" : [ {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          }, {
+            "code" : "{{code}}",
+            "importance" : "{{importance}}"
+          } ]
+        }, {
+          "evaluation" : "{{evaluation}}",
+          "modelIndicator" : "{{modelIndicator}}",
+          "score" : "{{score}}"
+        } ]
+      } ],
+      "productId" : "productId",
+      "transactionId" : "transactionId",
+      "tty" : [ {
+        "ttyResponse" : "{{ttyResponse}}"
+      } ]
+    }
+  }
+}

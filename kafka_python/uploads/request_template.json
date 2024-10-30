@@ -1,0 +1,119 @@
+{
+	"Request": {
+		"serviceType": "[string]",
+		"clientId": "{{clientId}}",
+		"productId": "{{productId}}",
+		"clientReferenceId": "{{clientReferenceId}}",
+		"consumerPii": {
+			"primaryApplicant": {
+				"name": {
+					"lastName": "{{lastName}}",
+					"firstName": "{{firstName}}",
+					"middleName": "{{middleName}}",
+					"generationCode": "{{generationCode}}"
+				},
+				"dob": {
+					"dob": "{{dob}}"
+				},
+				"ssn": {
+					"ssn": "{{ssn}}"
+				},
+				"currentAddress": {
+					"line1": "{{Address_line1}}",
+					"line2": "{{Address_line2}}",
+					"city": "{{city}}",
+					"state": "{{state}}",
+					"zipCode": "{{zipCode}}"
+				}
+			}
+		},
+		"requestor": {
+			"subscriberCode": "{{subscriberCode}}"
+		},
+		"permissiblePurpose": {
+			"type": "{{PermissiblePurpose}}"
+		},
+		"additionalAttributes": [
+			{
+				"id": "{{additionalAttributes1_id}}",
+				"value": "{{additionalAttributes1_value}}"
+			},
+			{
+				"id": "{{additionalAttributes2_id}}",
+				"value": "{{additionalAttributes2_value}}"
+			},
+			{
+				"id": "{{additionalAttributes3_id}}",
+				"value": "{{additionalAttributes3_value}}"
+			},
+			{
+				"id": "{{additionalAttributes4_id}}",
+				"value": "{{additionalAttributes4_value}}"
+			},
+			{
+				"id": "{{additionalAttributes5_id}}",
+				"value": "{{additionalAttributes5_value}}"
+			},
+			{
+				"id": "{{additionalAttributes6_id}}",
+				"value": "{{additionalAttributes6_value}}"
+			},
+			{
+				"id": "{{additionalAttributes7_id}}",
+				"value": "{{additionalAttributes7_value}}"
+			},
+			{
+				"id": "{{additionalAttributes8_id}}",
+				"value": "{{additionalAttributes8_value}}"
+			},
+			{
+				"id": "{{additionalAttributes9_id}}",
+				"value": "{{additionalAttributes9_value}}"
+			},
+			{
+				"id": "{{additionalAttributes10_id}}",
+				"value": "{{additionalAttributes10_value}}"
+			},
+			{
+				"id": "{{additionalAttributes11_id}}",
+				"value": "{{additionalAttributes11_value}}"
+			},
+			{
+				"id": "{{additionalAttributes12_id}}",
+				"value": "{{additionalAttributes12_value}}"
+			},
+			{
+				"id": "{{additionalAttributes13_id}}",
+				"value": "{{additionalAttributes13_value}}"
+			},
+			{
+				"id": "{{additionalAttributes14_id}}",
+				"value": "{{additionalAttributes14_value}}"
+			},
+			{
+				"id": "{{additionalAttributes15_id}}",
+				"value": "{{additionalAttributes15_value}}"
+			},
+			{
+				"id": "{{additionalAttributes16_id}}",
+				"value": "{{additionalAttributes16_value}}"
+			},
+			{
+				"id": "{{additionalAttributes17_id}}",
+				"value": "{{additionalAttributes17_value}}"
+			},
+			{
+				"id": "{{additionalAttributes18_id}}",
+				"value": "{{additionalAttributes18_value}}"
+			},
+			{
+				"id": "{{additionalAttributes19_id}}",
+				"value": "{{additionalAttributes19_value}}"
+			},
+			{
+				"id": "{{additionalAttributes20_id}}",
+				"value": "{{additionalAttributes20_value}}"
+			}
+		]
+	}
+}
